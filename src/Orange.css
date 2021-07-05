@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+.Orange-app{
+
+  background-color: #F3F3F3;
+}
+
+.orange-logo {
+  align-self: flex-start;
+  padding :20px;
+  height: 24vmin;
+  pointer-events: none;
+}
+.Orange-Navbar{
+
+  display: flex;
+
+}
+.Orange-Navitem{
+  flex-grow: 1;
+  text-align: center;
+  padding:5px;
+  font-family: 'Montserrat', sans-serif;
+  //background-color: #282c34;
+  color:#22262A;
+}
+.Orange-Navitem:hover{
+
+  color:#33A0FF;
+}
+
+
+
+.Orange-header{
+  //background-color: #282c34;
+  max-width:1000px;
+  margin:0 auto;
+  display:flex;
+  flex-flow: column;
+
+}
+.Showcase-container{
+   background-image: linear-gradient(to right, #E54F80 , #A061E6);
+   width:100%;
+   height:67vh;
+}
+.Orange-showcase{
+  display : flex;
+   height:67vh;
+  max-width:1000px;
+  margin:0 auto;
+
+  //background-color: #282c34;
+  justify-content: space-around;
+}
+
+.Orange-showcase-item1{
+  flex-grow:2;
+  //background-color: #2fff34;
+ display: flex;
+ align-items: flex-start;
+ justify-content: flex-start;
+}
+.Orange-showcase-item2{
+  flex-grow:1;
+  height:55vh;
+  max-width: 400px;
+  //background-color: #2fff34;
+  align-self: flex-end;
+}
+
+
+.Content{
+  display: flex;
+  flex-flow:column;
+  justify-content: flex-start;
+  padding-top: 15vh;
+  padding-left: 7vh;
+  width:50vh;
+}
+.productname{
+  color:#FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.75em;
+  padding:10px;
+}
+.aboutproduct{
+  color:#FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size:.75em;
+  padding:10px;
+
+}
+.more{
+  color:#FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  padding:10px;
+  text-decoration: underline;
+}
+.more:hover{
+  color:#22262A;
+}
+
+.Orange-body{
+  max-width:1000px;
+  margin :0 auto;
+  display:flex;
+  flex-flow:column;
+}
+.Orange-body-element{
+  margin:10vh 0px;
+  display:flex;
+  justify-content: space-around;
+}
+.Orange-board-element{
+  background-color: #FF6875;
+  width:40%;
+  height:40vh;
+}
+.Orange-banner-title{
+  margin:4vh ;
+  color:#FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.minimize{
+  width:60%;
+    margin:4vh ;
+    padding:0px;
+}
+.price{
+  color:#FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.25em;
+  font-weight:300;
+  letter-spacing: 2px;
+    margin:4vh ;
+}
+.ProcessElement{
+  display:flex;
+  flex-grow:1;
+  flex-flow:column;
+align-items: center;
+text-align: center;
+  padding:0px 20px;
+  //background-color: blue;
+}
+.demi-logo{
+  width:8vh;
+  height:8vh;
+  margin-bottom:2vh;
+}
+.process-title{
+  margin-bottom:4vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  font-size: 1.2em;
+  color:#22262A;
+}
+.process-content{
+  font-family: 'Montserrat', sans-serif;
+  font-size:.75em;
+  font-weight:500;
+color:#22262A;
+}
+.flex-col{
+  display:felx;
+  flex-flow:column;
+
+}
+.flex-row{
+  display:flex;
+  flex-grow:1;
+}
+.flex2{
+  width :35%
+
+}
+.felx3{
+width:65%;
+}
+.padding{
+  padding:10px;
+}
+.news-style{
+  text-align:center;
+ font-size: 1.8em;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 500;
+}
+.margin-top5{
+  margin-top:5vh;
+}
+.margin10{
+  margin:10vh 0vh;
+}
+.news-heading{
+  font-weight:500;
+  font-size:1.2em;
+margin:1.5vh;
+text-align: left;
+
+}
+.news-content{
+  font-weight:400;
+  font-size:.8em;
+margin:1.5vh;
+text-align: left;
+}
+.date-style{
+  font-weight:100;
+  font-size:.8em;
+  margin:1.5vh;
+  color:#C1C8CE;
+  text-align: left;
+}

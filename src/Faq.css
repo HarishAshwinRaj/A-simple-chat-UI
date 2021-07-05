@@ -1,0 +1,122 @@
+.faq::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.faq::-webkit-scrollbar-track {
+  background: #1A1431;
+}
+
+/* Handle */
+.faq::-webkit-scrollbar-thumb {
+  background: #7567A9;
+}
+
+/* Handle on hover */
+.faq::-webkit-scrollbar-thumb:hover {
+  background: #7567A9;
+}
+.full{
+  background-color: #F3F3F3;
+  height:100vh;
+
+  overflow: hidden;
+}
+.faqwidget{
+  height:100vh;
+  max-width:450px;
+  margin:0vh auto;
+
+  background-color:#1A1431;
+}
+
+.faqheader{
+  width:100%;
+  height:11vh;
+  background: #1F1F1F;
+  text-align: center;
+}
+
+.faqtitle{
+  padding-top: 10px;
+  font-size: 25px;
+  color:#FFAA00;
+}
+.faqmessage{
+  font-size: 15px;
+  color:#FFFFFF;
+}
+.faq-message-box{
+  display:flex;
+  flex-flow:column;
+  width:100%;
+  height:80vh;
+  overflow-y: scroll;
+
+}
+.faq-texter{
+  height:7vh;
+  background-color: #2B2B2B;
+  max-width: 80%;
+  margin:0 auto;
+    border-radius: 6vh;
+    margin-bottom:2vh;
+display:flex;
+align-items: center;
+justify-content: space-around;
+}
+.smile{
+  height:50%;
+font-weight: bold;
+  color: white;
+
+}
+.faq-text-box{
+  border:0px;
+  padding:5px;
+  color:#CCCCCC;
+  background-color: #2B2B2B;
+  width:60%;
+}
+.faq-text-box:focus{
+outline:none;
+
+}
+
+.send{
+  height:15px;
+  weight:15px;
+}
+.sendbtn{
+  height:5vh;
+  width:5vh;
+  border-radius: 5vh;
+ background: linear-gradient(#007EF4,#2A75BC);
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+.testscroll{
+  color:white;
+  margin :70px;
+}
+.right{
+  color:white;
+  padding:10px;
+  max-width: 65%;
+  margin:3vh 10px;
+  border-radius: 10px 10px 10px 0px;
+  background-image: linear-gradient(to right,#444444, #2C2C2C);
+  align-self: flex-start;
+  font-size: 0.9em;
+}
+.left{
+  color:white;
+  padding:10px;
+  font-size: 0.9em;
+  max-width: 65%;
+  margin:3vh 10px;
+  border-radius: 10px 10px 0px 10px;
+  background-image: linear-gradient(to right, #276CB1 , #017DF2);
+  align-self: flex-end;
+}
