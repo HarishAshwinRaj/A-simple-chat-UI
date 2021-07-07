@@ -25,6 +25,7 @@ function App() {
   return (
     <Router>
       <div className="Orange-app">
+      
           <Switch>
                   <Route exact path ="/">
                         <Header/>
@@ -32,10 +33,11 @@ function App() {
                         <Body/>
                   </Route>
                   <Route  path ="/faq">
-                        <FaqBot/>
+                  <FaqBot/>
                   </Route>
 
           </Switch>
+        
       </div>
     </Router>
   );

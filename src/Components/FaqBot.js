@@ -11,7 +11,7 @@ const FaqmsgBox=()=>{
     e.preventDefault();
     setmsg(e=>[...e,{res:0,text:text}]);
     //doing fetch and set actions
-    fetch("http://127.0.0.1:8000/api/",{
+    fetch("http://127.0.0.1:5000/api/",{
       method: "POST",
      body:JSON.stringify({
          question:text
