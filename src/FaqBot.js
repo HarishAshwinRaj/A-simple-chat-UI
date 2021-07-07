@@ -1,6 +1,6 @@
 import{useState} from 'react';
-import Smile from "../Svgcomp/smile.svg";
-import Send from "../Svgcomp/send.svg";
+import Smile from "./Svgcomp/smile.svg";
+import Send from "./Svgcomp/send.svg";
 
 const FaqmsgBox=()=>{
   const [msg,setmsg] =useState( [
@@ -10,8 +10,10 @@ const FaqmsgBox=()=>{
   const handleSubmit = (e)=>{
     e.preventDefault();
     setmsg(e=>[...e,{res:0,text:text}]);
+    setTimeout(()=>{setmsg(e=>[...e,{res:1,text:text}]);},1500);
+
     //doing fetch and set actions
-    fetch("http://127.0.0.1:5000/api/",{
+   /* fetch("http://127.0.0.1:5000/api/",{
       method: "POST",
      body:JSON.stringify({
          question:text
@@ -22,7 +24,7 @@ const FaqmsgBox=()=>{
    }).then(resp=>resp.json()).then(jso=>{
      console.log(jso.reply," i ve got this");
      setmsg(e=>[...e,{res:1,text:jso.reply}]);
- }).catch(err=>console.log(err,'errr'))
+ }).catch(err=>console.log(err,'errr'))*/
  settext("");
   }
 
@@ -65,7 +67,7 @@ const FaqBot = ()=>{
         Orange Hero
         </div>
         <div className ="faqmessage">
-        your personal chatbox
+        your personal chatbot
         </div>
       </div>
 <FaqmsgBox/>

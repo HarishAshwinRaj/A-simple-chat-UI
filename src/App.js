@@ -1,13 +1,10 @@
-import {useEffect,useState } from 'react';
-import logo from './orangelogo.svg';
-import './App.css';
-import './Orange.css';
-import "./Faq.css";
-import Header from  "./Components/Header";
-import Showcase from "./Components/Showcase";
-import Body from "./Components/Body";
-import FaqBot from "./Components/FaqBot";
-import {BrowserRouter as Router ,Route,Switch} from 'react-router-dom';
+
+import './css/App.css';
+import './css/Orange.css';
+import "./css/Faq.css";
+
+import FaqBot from "./FaqBot";
+
 function App() {
 /*
   useEffect(()=>{
@@ -23,23 +20,12 @@ function App() {
   },[])
 */
   return (
-    <Router>
+    
       <div className="Orange-app">
-      
-          <Switch>
-                  <Route exact path ="/">
-                        <Header/>
-                        <Showcase/>
-                        <Body/>
-                  </Route>
-                  <Route  path ="/faq">
-                  <FaqBot/>
-                  </Route>
-
-          </Switch>
-        
+      <FaqBot/>
+         
       </div>
-    </Router>
+ 
   );
 }
 
